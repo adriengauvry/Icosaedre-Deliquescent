@@ -1,0 +1,13 @@
+.page-list-game{
+    padding: 20px;
+    margin-bottom: 10px;
+
+    &__buttons{
+        display: flex;
+        justify-content: flex-end;
+
+        .page-list-game__buttons__button{
+            margin-left: 5px;
+        }
+    }
+}

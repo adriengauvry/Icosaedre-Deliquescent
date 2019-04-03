@@ -1,0 +1,18 @@
+.page{
+    margin: 2% 1%;
+
+    &__form{
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    &__container{
+        overflow-x: auto;
+
+        &__gestion{
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0px;
+        }
+    }
+}

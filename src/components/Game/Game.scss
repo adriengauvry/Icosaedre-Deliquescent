@@ -1,0 +1,32 @@
+.map{
+    text-align: center;
+    margin: 5px 15px;
+    height: 37em;
+    width: 98%;
+    overflow:hidden;
+    // border-left: 2px solid white;
+    // border-right: 2px solid white;
+    // border-top: 2px solid white;
+    // border-bottom: 2px solid white;
+    
+    &__objects{
+      width: 2%;
+      position: relative;
+      top: -50%;
+      float: left;
+    }
+
+    &__chars{
+      height: 15%;
+      width: 15%;
+      position: relative;
+      top: -50%;
+      float: right;
+    }
+
+    &__image{
+      height: 100%;
+      width: 100%;
+    }
+
+  }

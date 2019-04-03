@@ -1,0 +1,20 @@
+.page{
+    margin: 2% 10%;
+
+    &__form{
+        &__stat{
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+
+    .page__paper{
+        &__add{
+            margin: 10px;
+        }
+    }
+
+    &__container{
+        overflow-x: auto;
+    }
+}

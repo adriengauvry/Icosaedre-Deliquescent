@@ -1,0 +1,13 @@
+.invitation-page{
+    &__paper, &__paper--empty{
+        margin: 10px 10%;
+    }
+    &__paper--empty{
+        padding: 5px;
+    }
+    &__refresh{
+        display: flex;
+        justify-content: flex-start;
+        margin: 5px;
+    }
+}

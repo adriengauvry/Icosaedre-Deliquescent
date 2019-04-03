@@ -1,0 +1,27 @@
+#appbar__settings {
+  position: absolute;
+  right: 10px;
+}
+
+#dialog__fabs{
+
+  &__green{
+    background-color: #4CAF50;
+  }
+  
+  &__red{
+    background-color: #F44336;
+  }
+  
+  &__yellow{
+    background-color: #FFEB3B;
+  }
+  
+  &__pink{
+    background-color: #E91E63;
+  }
+
+  display: flex;
+  justify-content: space-around;
+
+}

@@ -1,0 +1,11 @@
+.builder{
+    &__form{
+        display: flex; /* contexte sur le parent */
+        align-items: center;
+    }
+
+    &__save{
+        display: flex;
+        justify-content: center;
+    }
+}
